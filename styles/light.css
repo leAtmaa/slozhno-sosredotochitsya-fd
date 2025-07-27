@@ -9,6 +9,7 @@
   --main-text-color: #353430;
   --main-text-link-color: #FF8DCB;
   --decorated-zone-color: #353430;
+  --decorated-zone-color-hover: rgba(53, 52, 48, 0.4);
 }
 
 .theme-light .rec {
@@ -27,6 +28,7 @@
   --main-text-color: #353430;
   --main-text-link-color: #FF8DCB;
   --decorated-zone-color: #353430;
+  --decorated-zone-color-hover: rgba(53, 52, 48, 0.4);
   }
 
   .rec {

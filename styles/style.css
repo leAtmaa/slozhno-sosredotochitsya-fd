@@ -108,7 +108,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--decorated-zone-color);
+  outline: 1px solid var(--decorated-zone-color-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -356,9 +356,13 @@
 }
 
 @media (min-width: 1024px) {
+  .page {
+    min-inline-size: calc(100vw - var(--scrollbar-width, 17px));
+  }
+
   .header__theme-menu {
-  align-self: start;
-  justify-self: center;
+    align-self: start;
+    justify-self: center;
   }
 
   .header__theme-menu-list {
