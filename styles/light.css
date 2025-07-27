@@ -11,6 +11,10 @@
   --decorated-zone-color: #353430;
 }
 
+.theme-light .rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
   --page-background-image: url(../images/cover-image-light.png);
@@ -23,5 +27,9 @@
   --main-text-color: #353430;
   --main-text-link-color: #FF8DCB;
   --decorated-zone-color: #353430;
+  }
+
+  .rec {
+  display: none;
   }
 }
